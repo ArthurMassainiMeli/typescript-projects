@@ -27,3 +27,11 @@ const main = async () => {
 };
 
 main();
+
+const Car = {
+  honk(): void {
+    console.log('vrum');
+  },
+};
+
+Car.honk();
